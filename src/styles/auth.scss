@@ -1,0 +1,96 @@
+#page-auth {
+    
+    height: 100vh;
+    width: 100vw;
+    max-height: 100vh;
+    max-width: 100vw;
+    min-width: 43rem;
+
+    aside {
+
+        background-color: #825afc;
+
+        img {
+            max-width: 320px;
+            
+        }
+
+        strong {
+            font: 700 36px 'Poppins', sans-serif;
+            line-height: 42px;
+        }
+
+        p {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+
+    main {
+
+        h2 {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        div.criar-sala {
+            min-width: 13rem;
+        }
+
+        div {
+            max-width: 320px;
+            width: 100%;
+
+            button.create-room {
+                font-weight: 500;
+
+                a {
+                    text-decoration: none;
+                }
+
+                cursor: pointer;
+
+                img {
+                    margin-right: 6px;
+                }
+
+                transition: filter 0.2s;
+
+                &:hover {
+                    filter: brightness(0.9);
+                }
+            }
+
+            form {
+                input {
+                    height: 58px;
+                }
+            }
+
+            div.separator {
+                font-size: 14px;
+
+                &::before {
+                    content: '';
+                    flex: 1;
+                    height: 1px;
+                    background-color: #ccc;
+                    margin-right: 16px;
+                }
+
+                &::after {
+                    content: '';
+                    flex: 1;
+                    height: 1px;
+                    background-color: #ccc;
+                    margin-left: 16px;
+                }
+            }
+
+            small {
+                a {
+                    color: #e559f9;
+                }
+            }
+        }
+    }
+}
